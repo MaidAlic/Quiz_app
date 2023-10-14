@@ -2,6 +2,14 @@ body {
     background-color: #007AFF !important;
 }
 
+#questionBody {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 .quiz-card {
     width: 30rem;
 
@@ -9,6 +17,7 @@ body {
 
 
 .container {
+    margin-top: 70px;
     min-height: 100vh;
     background-color: #007AFF !important;
     display: flex;
@@ -29,3 +38,40 @@ body {
     background-color: rgba(0,0,0,0.05);
 
 }
+
+.navbar {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+.widht-100 {
+    width: 100%;
+
+}
+.text-center {
+    text-align: center;
+}
+.final-headline {
+    font-size: 38px;
+    margin-bottom: 32px;
+
+}
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+
+}
+
+.card-title {
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+}
+
